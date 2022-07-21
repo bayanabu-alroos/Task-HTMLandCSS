@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+background-color: rgb(240, 240, 166);
+
+}
+
+/* Style the header */
+header {
+  background-color:  rgb(241, 162, 6);
+  padding: 15px;
+  
+ 
+  color: black;
+  
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding-bottom:50% ;
+
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+  padding-bottom:50% ;
+
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h1> 2- Column layout</h1>
+</header>
+
+<section>
+  
+  
+  <article>
+   <p>The camera is a device used in photography with the aim of taking pictures of living creatures, plants, or inanimate objects through a light-sensitive surface, and it consists of a narrow, sealed square, and contains an opening to pass light during the process of photographing a particular scene, and in general there are many types Cameras, with different shapes and characteristics, as there are modern cameras that are more advanced than the cameras of ancient times.</p>
+                <p>Camera components The camera contains five basic components, which are as follows: The camera box: preserves and protects the sensitive film from all lights except for light that enters the lens. Film: The image is recorded on it, it takes continuous pictures, and it is automatically damaged due to its sensitivity to light. Light control: a hole or a focus, and the shutter is adjustable often. Lens: The lens focuses on the rays of light through which the film and pictures are shot, and it is usually adjustable by moving it forward or backward. Display system: The display system is separated from the lens system, and it may work through it with a mirror.</p>
+                <p>Photography is the science and art of taking pictures by recording light or electromagnetic radiation of others or specific objects, either electronically via an image sensor, or chemically via a light-sensitive material such as photographic film. It is a specific combination of different types of photographic techniques that provide the viewer with a message or scene in an artistic form, and the most important factors that help in obtaining the best images are; Correct angle, appropriate lighting, and good lens, and the lenses must be changed according to the lighting and type of image to be captured. Usually a lens is used to focus the light reflected or emitted from the objects to the center of the image on a light-sensitive surface inside the camera during the capture of the image, and when using the electronic image device, an electrical charge is produced in each pixel of the image, which is electronically processed and stored in the image file The digital in the camera, or it is processed according to the old method of placing pictures in special solutions inside rooms with very light lighting.</p>
+                <p>The camera is a device used in photography with the aim of taking pictures of living creatures, plants, or inanimate objects through a light-sensitive surface, and it consists of a narrow, sealed square, and contains an opening to pass light during the process of photographing a particular scene, and in general there are many types Cameras, with different shapes and characteristics, as there are modern cameras that are more advanced than the cameras of ancient times.</p>
+                <p>Camera components The camera contains five basic components, which are as follows: The camera box: preserves and protects the sensitive film from all lights except for light that enters the lens. Film: The image is recorded on it, it takes continuous pictures, and it is automatically damaged due to its sensitivity to light. Light control: a hole or a focus, and the shutter is adjustable often. Lens: The lens focuses on the rays of light through which the film and pictures are shot, and it is usually adjustable by moving it forward or backward. Display system: The display system is separated from the lens system, and it may work through it with a mirror.</p>
+              
+               
+  </article>
+  <nav>
+    <ul>
+                    <li>Item #1</li>
+                    <li>Item #2</li>
+                    <li>Item #3</li>
+                </ul>
+  </nav>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
