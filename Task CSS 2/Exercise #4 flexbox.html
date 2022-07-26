@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(223, 223, 144);
+}
+.container{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    height: 400px;
+    margin: auto;
+    border-radius: 75px;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.user{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+.user:not(:last-child){
+    border-bottom: 2px solid slategrey;
+}
+.user img{
+    width: 90%;
+    border-radius: 50%;
+
+}
+.img-container{
+    width: 20%;
+}
+.text-container{
+    margin-left: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.city{
+    font-size: 14px;
+    color: grey;
+    margin-left: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="user">
+            <div class="img-container"> <img src="sigin.png" alt="user"></div>
+            <div>
+                <div class="text-container"> User #1</div>
+                <div class="city"> Amman - Jordan </div>
+            </div>
+            
+        </div>
+        <div class="user">
+            <div class="img-container"> <img src="sigin.png" alt="user"></div>
+            <div>
+                <div class="text-container"> User #2</div>
+                <div class="city"> Zarqa - Jordan </div>
+            </div>
+            
+        </div>
+        <div class="user">
+            <div class="img-container"> <img src="sigin.png" alt="user"></div>
+            <div>
+                <div class="text-container"> User #3</div>
+                <div class="city"> Irbad - Jordan </div>
+            </div>
+            
+        </div>
+        <div class="user">
+            <div class="img-container"> <img src="sigin.png" alt="user"></div>
+            <div>
+                <div class="text-container"> User #4</div>
+                <div class="city"> Aqaba - Jordan </div>
+            </div>
+            
+        </div>
+
+    </div>
+    
+</body>
+</html>
